@@ -1,0 +1,108 @@
+@font-face {
+    font-family: tictactoe;
+    src: url(./Fonts/Tic-Tac-Toe/tictactoe-webfont.woff);
+}
+html{
+    font-family: tictactoe;
+    background-image: url(./img/chalk\ board.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+#gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    line-height: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+
+}
+#message{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: tictactoe;
+    color: white;
+    font-size: 90px;
+}
+#controls{
+    text-align: center;
+    margin-top: 40px;
+}
+
+input, button{
+    border-radius: 12px;
+    border: 2px solid gold;
+    background-color: seagreen;
+    color: white;
+}
+
+.square:nth-child(0){
+    border: solid 2px white;
+}
+.square:nth-child(1){
+    border-bottom: 2px white solid;
+    border-right: 2px white solid;
+}
+.square:nth-child(2){
+    border-bottom: 2px white solid;
+    border-right: 2px white solid; 
+    border-left: 2px white solid; 
+}
+.square:nth-child(3){
+    border-left: 2px white solid; 
+    border-bottom: 2px white solid;
+}
+.square:nth-child(4){
+    border-top: 2px white solid;
+    border-right: 2px white solid; 
+    border-bottom: 2px white solid;
+}
+.square:nth-child(5){
+    border: solid 2px white;
+}
+.square:nth-child(6){
+    border-top: 2px white solid;
+    border-left: 2px white solid; 
+    border-bottom: 2px white solid;
+}
+.square:nth-child(7){
+    border-top: 2px white solid;
+    border-right: 2px white solid; 
+}
+.square:nth-child(8){
+    border-top: 2px white solid;
+    border-right: 2px white solid; 
+    border-left: 2px white solid; 
+}
+.square:nth-child(9){
+    border-left: 2px white solid; 
+    border-top: 2px white solid;
+}
+
+
+
+
+
